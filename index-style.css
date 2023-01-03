@@ -1,0 +1,698 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.clr
+{
+    clear: both;
+}
+
+
+body
+{
+    font-family: 'segoe ui light';
+}
+
+
+.home
+{
+    height: 900px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/business-2.jpg);
+    background-size: 100% 100%;
+    overflow: auto;
+    margin: auto;
+
+}
+
+
+
+.nav .logo
+{
+    width: 150px;
+    height: 40px;
+    float: left;
+    padding: 5px;
+    margin: 2px 45px;
+} 
+
+.nav a
+{
+    color: #fff;    
+    text-decoration: none;
+
+       
+}
+
+
+.nav ul
+{
+    overflow: auto;
+    list-style-type: none;
+    padding: 25px;
+    
+    
+}
+
+
+.nav li
+{
+    background-color: transparent;
+    float:right;
+    padding: 5px 20px;
+    
+   
+}
+
+
+
+li .con
+{
+  
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px  20px;
+    border-radius: 5%;
+
+}
+
+
+
+li .con:hover
+{
+    color: white;
+    background-color: #4CAF50;
+        
+}
+.sidebar
+{
+  height: 80px;;
+    width: 40px; 
+    position: fixed;
+    background-color: white;
+    padding-bottom: 3px;
+    top: 200px;
+    right: 0;
+    border-radius: 5%;
+}
+ 
+.sidebar i
+{
+    padding: 5px;
+}
+
+
+
+.caption
+{
+   color: #fff;
+    text-align: center;
+    padding: 195px;
+    margin: auto;
+    
+}
+
+.caption .p1
+{
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+    
+    
+}
+
+
+
+.caption .p2
+{
+    font-size: 51px;
+        font-weight: bolder;
+
+}
+
+
+
+.caption .b1
+{
+padding: 20px 25px;
+    border: none;
+margin: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 3%;
+    font-size: 12px;
+font-weight: 600;
+    letter-spacing: .4px;
+
+}
+
+
+.b1:hover
+{
+   color: black;
+    background-color: white;
+}
+
+.
+
+.part3
+{
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+    
+}
+
+
+.icon 
+{
+    width: 30%;
+    float: left;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding-left: 90px;
+    
+}
+
+
+
+
+.icon i
+{
+    padding-right: 10px;
+}
+
+
+.icon h4
+{
+    margin-top: 70px;
+    color: #303030;
+    font-size: 20px;
+    padding-bottom: 15px;
+    
+
+}
+
+.icon p
+{
+    color: #888;
+    margin-l;eft: 40px;
+
+}
+
+.services
+{
+    width: 100%;
+    text-align: center;
+    background-color: ghostwhite;
+    height: 800px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    overflow: auto;
+    padding-left: 60px;
+}
+
+.services h1
+{
+    padding-top: 80px;    
+    color: #303030;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.services .serv-p
+{
+    color: #888;
+    padding-bottom: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .5;
+
+}
+
+.conta
+{
+    padding-left:15px;
+    box-sizing: border-box;
+}
+
+.service
+{
+    float: left;
+    width: 25%;
+    background-color: white;
+    height: auto;
+    margin:20px;
+   padding-bottom: 30px;    
+text-align: left;
+    
+
+}
+
+.service .bigp
+{
+    color:   #303030; 
+    font-size: 20px;
+    color: black;
+    padding-top: 15px;
+}
+
+
+.service p
+{
+    color: #888;
+    padding-left: 20px;
+}
+.service a
+{
+    text-align: left;
+    color: #888;
+    text-decoration: none;
+    
+}
+.service  i
+{
+    vertical-align: middle;
+    padding-left: 3px;
+    
+}
+
+.service a:hover
+{
+ color: #4CAF50;
+}
+
+.service img
+{
+    width: 100%;
+    transition: all 2s;
+overflow:hidden;
+
+    
+}
+
+
+.service img:hover
+{
+   transform: scale(1.1,1.1);
+}
+
+
+
+.secret
+{
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+.secret .paragraph
+{
+    float: left;
+    padding-left: 50px;
+    width: 60%;
+    
+    
+}
+
+.paragraph h2
+{
+    padding-bottom: 35px;
+    font-size: 35px;
+    
+}
+
+.paragraph .head
+{
+    padding-bottom: 25px;
+}
+
+.paragraph p
+{
+    padding-bottom: 25px;
+}
+
+.paragraph button
+{
+    color:white;
+    background-color: #4CAF50;
+    padding: 15px;
+    width: 120px;
+    border: none;
+    border-radius: 4%;
+    font-weight: 500;
+}
+
+.paragraph button:hover
+{
+  background-color: black;    
+}
+
+.paragraph i
+{
+    padding-right: 10px;
+}
+
+.secret .photo
+{
+    width: 40%;
+        float: right;
+
+}
+.secret img
+{
+    width: 100%;
+            
+    
+}
+.secret .layer
+{
+    padding: 25px;
+}
+
+.quotes
+{
+    width: 100%;
+    background-color: ghostwhite;
+    height: 550px;
+    padding-left: 80px;
+    
+}
+
+.quotes i
+{
+   padding-left: 650px;
+   padding-top: 5%;
+}
+
+.quote
+{
+    width: 28%;
+    float: left;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 30px 3px 30px 15px;
+    height: 150px;
+      
+    
+}
+
+
+.sign
+{
+    width: 100%;
+    text-align: center;
+}
+
+.sign1
+{
+    width: 2%;
+    float: left;
+    margin-left: 10px;
+margin-top: 50px;
+}
+
+
+.numbers
+{
+   width: 100%;
+    height: 300px;
+}
+
+
+.numbers .num
+{
+    
+    float: left;
+    width: 25%;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.num .p2
+{
+    color: #888
+}
+
+.value
+{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Images/full-2.jpg);
+    height: 500px;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.value .cap
+{
+    text-align: center;
+    color: white;
+    padding-top: 155px;
+    
+    
+}
+
+
+.cap .title
+{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    padding-bottom: 20px;
+}
+.cap p
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.cap button
+{
+  color:white;
+    background-color: #4CAF50;
+    border: none;
+    padding: 20px;
+    border-radius: 4px;
+    width: 150px;
+}
+
+.cap button:hover
+{
+    color:black;
+    background-color: white;
+}
+
+.other-services
+{
+    width: 100%;
+    height: 550px;
+}
+
+.other-serv
+{
+    width: 30%;
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.other-serv p
+{
+    padding-left: 20px;
+    
+}
+.other-services h2
+{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    padding-bottom: 10px;
+    letter-spacing: 1;
+}
+.other-services h3
+{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.other-services .tit
+{
+    text-align: center;
+    font-size: 22px;
+    color: #686868;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+
+.logos
+{
+    width: 100%;
+    background-color: ghostwhite;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+.logoo
+{
+    margin-top:80px; 
+
+
+    width:20%;
+    float: left;
+}
+.logoo img
+{
+    width: 150px;
+    height: 60px;
+    margin-left: 15px;
+    padding-left: 35px;
+    padding: 20px;
+}
+
+
+.contact-us
+{
+    background-color: #4caf50;
+    height: 250px;
+    width: 100%
+
+    
+}
+.contact-us h2
+{
+    color: white;
+    padding-left:80px;
+    padding-top: 70px;
+    font-size: 35px;
+    letter-spacing: .9;
+}
+
+.contact-us p
+{
+    float: left;
+    color: ghostwhite;
+padding-top: 20px;
+    padding-left: 80px;
+    font-size: 20px;
+     
+}
+
+
+.contact-us button
+{
+    float: right;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    margin: -35px 60px;
+    border: none;
+    border-radius: 4%;
+    font-weight: bolder;
+}
+
+.contact-us button:hover
+{
+    color: white;
+    background-color: #1f2021;
+}
+
+
+.footer
+{
+    height: 400px;
+    background-color: #1f2021;
+    width: 100%;
+
+           
+}
+
+.foot
+{
+    width: 25%;
+    float: left; 
+    color: white;
+        margin-top: 60px;
+    
+}
+.foot h3
+{
+    padding:25px 15px 15px 35px; 
+    
+}
+.foot p
+{
+color: #58606b; 
+    padding: 5px 15px 5px 35px ;
+    
+}
+
+.foot ul
+{
+    list-style-type: none;
+}
+.foot li
+{
+    color: #58606b;
+    padding: 5px 25px;
+
+}
+.foot a
+{
+    text-decoration: none;
+    color: #58606b;
+}
+
+.foot a:hover
+{
+    color: #4274b7;
+}
+
+.foot i
+{
+    padding-right: 5px;
+}
+.map
+{
+    background-image: url(Images/contact-details-map.png);
+    background-repeat: no-repeat;
+    margin-bottom: 65px;
+    padding-bottom: 40px;
+    opacity: .8;
+}
+
+
+.last
+{
+    width: 100%;
+    background-color: #191919;
+    color: #58606b; 
+    height: 80px;
+    text-align: center;
+}
+
+.last .l
+{
+    float: left;
+padding-left: 40px;
+    padding-top: 30px;
+}
+.last .social
+{
+    float: right;
+    padding: 20px 30px;
+    
+}
+
+.social span
+{
+padding-left: 15px;
+}
